@@ -1,19 +1,46 @@
-# Created by https://www.toptal.com/developers/gitignore/api/react
-# Edit at https://www.toptal.com/developers/gitignore?templates=react
+# Dependencies
+node_modules/
 
-### react ###
-.DS_*
-*.log
+# Production build
+dist/
+build/
+
+# Logs
 logs
-**/*.backup.*
-**/*.back.*
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
-node_modules
-bower_components
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-*.sublime*
+# IDE files
+.vscode/
+.idea/
 
-psd
-thumb
-sketch
+# OS files
+.DS_Store
+Thumbs.db
 
+# Cache
+.cache/
+.parcel-cache/
+
+# Coverage
+coverage/
+
+# Vite
+.vite/
+
+# Temporary files
+*.tmp
+*.temp
+
+# ESLint cache
+.eslintcache
